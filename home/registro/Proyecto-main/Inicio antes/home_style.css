@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root{
+
+}
+body {
+    color: black;
+    background-color: #08798A;
+}
+#seccion1 {
+	padding: 12px 0;
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/01/20/18/blur-1876100_960_720.jpg);
+}
+#seccion1 h1{
+	font-size: 40px;
+}
+header{
+	width: 100%;
+}
+
+.enlaces{
+	text-align: right;
+	height: 10vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+.enlaces a{
+	color: violet;
+	margin-right: 24px;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.red
+{
+	background-color: #000;
+	text-align: center;
+}
